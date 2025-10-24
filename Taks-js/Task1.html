@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Task1</title>
+        
+    </head>
+    <body>
+        <input id="input-name" placeholder="Enter" onkeyup="change()">
+        <h1 id="result-name"></h1>
+        <script>
+            var input=document.getElementById("input-name");
+            var result=document.getElementById("result-name");
+            function change() {
+                result.textContent=input.value;
+            }
+        </script>
+    </body>
+</html>
