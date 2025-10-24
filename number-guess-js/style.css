@@ -1,0 +1,15 @@
+.input-css, .guess-css {
+    font-size:20px;
+    margin-right:25px;
+}
+.guess-css {
+    background-color:green
+}
+.result-css, .try-css {
+    font-weight: bold;
+    font-size:25px;
+    color:red;
+}
+.color1 {
+    background-color:blue;
+}
