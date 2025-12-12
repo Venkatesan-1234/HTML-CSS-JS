@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products - My Shop</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="nav">
+            <h2>My Shop</h2>
+            <div>
+                <a href="index.html"><button>Products</button></a>
+                <a href="cart.html"><button>Cart <span class="cart-count" id="cartCount">0</span></button></a>
+            </div>
+        </div>
+
+        <h1>Our Products</h1>
+        <div class="products-grid" id="productsGrid"></div>
+    </div>
+
+    <script src="script.js"></script>
+    <script>
+        // Initialize products page
+        renderProducts();
+        updateCartCount();
+    </script>
+</body>
+</html>

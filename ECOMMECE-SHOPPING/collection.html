@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nostra</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <h1>Nostra</h1>
+        <div class="navbar-links">
+            <p class="navbar-link"><a href="index.html">Home</a></p>
+            <p class="navbar-link"><a href="collection.html">Collections</a></p>
+            <p class="navbar-link"><a href="contact.html">Contacts</a></p>
+            <p class="navbar-link"><a href="cart.html">Cart</a></p>
+        </div>
+
+        <div class="navbar-menu-toggle" onclick="shownavbar()">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+        
+    </nav>
+   <!--side nav bar-->
+    <div class="side-navbar"> 
+        <p style="text-align: right;" onclick="closenavbar()">
+            <i class="fa-solid fa-xmark"></i>
+        </p>
+        <div class="side-navbar-links">
+            <p class="side-navbar-link"><a href="index.html">Home</a></p>
+            <p class="side-navbar-link"><a href="collection.html">Collections</a></p>
+            <p class="side-navbar-link"><a href="contact.html">Contacts</a></p>
+            <p class="navbar-link"><a href="cart.html">Cart</a></p>
+        </div>
+    </div>
+
+
+    <div class="product-section">
+        <form class="product-search">
+            <input type="text" id="search" placeholder="Search">
+            <i class="fa-solid fa-magnifying-glass"></i>
+
+        </form>
+        <h1>Trending Collections</h1>
+        <div class="products" id="products">
+            <div class="products-box">
+                <img src="download.jpg"> 
+                <p style="font-weight: bold;">Books</p>
+                <button id="good">Shop now</button>
+            </div>
+            <div class="products-box">
+                <img src="images (5).jpg"> 
+                <p style="font-weight: bold;">Table</p>
+                <button id="good">Shop now</button>
+            </div>
+            <div class="products-box">
+                <img src="download (2).jpg"> 
+                <p style="font-weight: bold;">Saree</p>
+                <button id="good">Shop now</button>
+            </div>
+            <div class="products-box">
+                <img src="images.jpg"> 
+                <p style="font-weight: bold;">Tshirt with Shocks</p>
+                <button id="good">Shop now</button>
+            </div>
+            <div class="products-box">
+                <img src="images (1).jpg"> 
+                <p style="font-weight: bold;">Western Clothes</p>
+                <button id="good">Shop now</button>
+            </div>
+            <div class="products-box">
+                <img src="images (2).jpg"> 
+                <p style="font-weight: bold;">Rough Ware</p>
+                <button id="good">Shop now</button>
+            </div>
+            <div class="products-box">
+                <img src="images (3).jpg"> 
+                <p style="font-weight: bold;">Slippers</p>
+                <button id="good">Shop now</button>
+            </div>
+            <div class="products-box">
+                <img src="images (4).jpg"> 
+                <p style="font-weight: bold;">Traditional Saree</p>
+                <button id="good">Shop now</button>
+            </div>
+            
+    </div>
+
+</div>
+<div class="footer">
+    <div class="footer-container">
+           <div class="footer-box-1">
+            <h2 class="headingtext">nostra</h2>
+            <p>Trust Delivery Happy Succes</p>
+            <div class="footer-icon-container">
+                <i class="fa-brands fa-instagram" style="color:#ffffff;"></i>
+                <i class="fa-brands fa-twitter" style="color:#ffffff;"></i>
+                <i class="fa-brands fa-facebook" style="color:#ffffff;"></i>
+            </div>
+           </div>
+    </div>
+    <p>@2024 Nostra.com</p>
+</div>
+    <script src="collection.js">
+
+    </script>
+</body>
+</html>
